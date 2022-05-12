@@ -1,0 +1,28 @@
+header {
+  padding: 16px 0;
+  margin-bottom: 16px;
+}
+
+.wws-header-top {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+.wws-search,
+.wws-cart-button {
+  width: 180px;
+}
+
+.wws-site-name {
+  text-align: center;
+}
+
+.wws-cart-button {
+  text-align: right;
+}
+
+.wws-menu {
+  text-align: center;
+}

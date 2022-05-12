@@ -1,0 +1,9 @@
+.wws-section {
+  margin: 16px 0;
+}
+
+.wws-item {
+  background-color: rgb(240, 247, 255);
+  border: 1px solid lightsteelblue;
+  padding: 12px;
+}

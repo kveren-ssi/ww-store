@@ -1,12 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
+// Modules
+import * as React from 'react';
+import CssBaseline from '@mui/material/CssBaseline';
+import Container from '@mui/material/Container';
+
+// Components
+import Header from './components/header';
+import Main from './components/main';
+import Footer from './components/footer';
+
+// CSS
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      App Test
-    </div>
+    <React.Fragment>
+      <CssBaseline />
+
+      <Container maxWidth="lg">
+        <Header />
+        <Main />
+        <Footer />
+      </Container>
+
+    </React.Fragment>
   );
 }
 
