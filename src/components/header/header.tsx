@@ -1,6 +1,7 @@
 // Modules
 import Grid from '@mui/material/Grid'
 import Search from '../search'
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Button from '@mui/material/Button'
 import Menu from '../menu'
 
@@ -20,7 +21,7 @@ const Header = () => {
               <h1>Wanderlust Wear</h1>
             </div>
             <div className="wws-cart-button">
-              <Button variant="outlined">Cart</Button>
+              <Button variant="outlined"><ShoppingCartIcon /> Cart</Button>
             </div>
           </div>
         </Grid>
